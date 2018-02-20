@@ -1,2 +1,2 @@
 # Description
-study of the ios development
+study of the swift development
