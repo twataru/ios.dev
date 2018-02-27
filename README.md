@@ -1,9 +1,7 @@
-Description
-***
+# Description
 study of the swift development
 
-Setup
-***
+# Setup
 swift installation to Ubuntu 14.04.5  
 
 ```
