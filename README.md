@@ -2,7 +2,7 @@
 study of the swift development
 
 # Setup
-swift installation to Ubuntu 14.04.5  
+swift4 installation to Ubuntu 14.04.5  
 
 ```
 $ wget https://swift.org/builds/swift-4.0.3-release/ubuntu1404/swift-4.0.3-RELEASE/swift-4.0.3-RELEASE-ubuntu14.04.tar.gz
