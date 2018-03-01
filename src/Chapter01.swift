@@ -14,7 +14,7 @@ class Chapter01{
   class func Q00() {
     let str : String = "stressed"
     print("# 00.文字列の逆順")
-    print(String(str.characters.reverse()))
+    print(String(str.reversed()))
   } 
   
   /*
@@ -23,10 +23,10 @@ class Chapter01{
     「パタトクカシーー」という文字列の1,3,5,7文字目を取り出して連結した文字列を得よ．
   */
   class func Q01(){
-    let str : String = "パタトクカシーー"
-    let array = [str]
+    let str  = "パタトクカシーー".map{String($0)}
+    
     print("# 01.「パタトクカシーー」")
-    print(array)
+    print(str[0] + str[2] + str[4] + str[6])
   }
 }
 Chapter01.Q00()
