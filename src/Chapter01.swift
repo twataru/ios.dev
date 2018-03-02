@@ -17,7 +17,8 @@ class Chapter01{
   class func Q00() {
     let str : String = "stressed"
     print("# 00.文字列の逆順")
-    print(String(str.reversed()))
+    print(String(str.reversed())) 
+    // desserts
   } 
   
   /*
@@ -29,7 +30,8 @@ class Chapter01{
     let str  = "パタトクカシーー".map{String($0)}
     
     print("# 01.「パタトクカシーー」")
-    print(str[0] + str[2] + str[4] + str[6])
+    print(str[0] + str[2] + str[4] + str[6]) 
+    // パトカー
   }
   
   /*
@@ -44,6 +46,7 @@ class Chapter01{
     
     print("# 02.「パトカー」＋「タクシー」＝「パタトクカシーー」")
     print(zip(patcar,taxi).map{String($0) + String($1)}.reduce("",+))
+    // パタトクカシー
   }
   
   /*
@@ -58,6 +61,7 @@ class Chapter01{
               .map{String($0).prefix(1)}
     print("# 03.円周率")
     print(pai)
+    // ["N", "I", "n", "a", "d", "a", "o", "c", "a", "t", "h", "l", "i", "q", "m"]
   }
 }
 Chapter01.Q00()
