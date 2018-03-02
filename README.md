@@ -14,5 +14,5 @@ $ source ~/.profile
 $ swift -v
 ```
 
-# Wookbook
+# Workbook
 http://www.cl.ecei.tohoku.ac.jp/nlp100/
